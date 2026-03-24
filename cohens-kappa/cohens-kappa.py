@@ -21,5 +21,3 @@ def cohens_kappa(rater1, rater2):
         return 1
     k = (po - pe) / (1 - pe)
     return k
-
-print(cohens_kappa([0, 1, 0, 1],[0, 1, 0, 1]))
